@@ -1,0 +1,17 @@
+// Override default variables before the import
+$primary: #08316D;
+$secondary: #D8AF49;
+$light: #fffbf1;
+*{
+     font-family: 'Gotham', sans-serif;
+     font-style: normal;
+}
+h6{
+     font-size: 18px !important;
+     font-weight: 700 !important;
+    line-height: 18px !important;
+}
+                                                
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+

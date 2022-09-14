@@ -1,0 +1,66 @@
+.form-section{
+    background-image: url(../assets/images/bg4.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.bg-2{
+    background-image: url(../assets/images/bg5.png);
+    background-position:left bottom;
+    background-repeat: no-repeat;
+}
+.bg-3{
+    background-image: url(../assets/images/bg6.png);
+    background-position:top left;
+    background-repeat: no-repeat;
+}
+
+.right{
+    background: #F9F9F9
+}
+
+.PhoneInputInput{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.PhoneInputInput--focus{
+    border: none;
+}
+.mobile_input{
+    position: relative;
+    height: 40px;
+}
+.mobile_input input{
+    padding-left: 90px;
+}
+.country_code{
+    top: -36px;
+    width: 80px;
+    position: absolute;
+    
+}
+.country_code::after{
+    content: "";
+    height: 25px;
+    width: 1px;
+    background: #ced4da;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.dropdown-menu {
+    min-width: 40px !important;
+  }
+ 

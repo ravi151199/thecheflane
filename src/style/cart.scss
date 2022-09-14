@@ -1,0 +1,21 @@
+
+.cart-section {
+   background-image: url(../assets/images/bg-cart.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   line-height: 1.6rem;
+}
+.cart-container{
+    background-image: url(../assets/images/bg-price.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: contain;
+}
+
+.property span{
+    background-color: #FFF1CF;
+    color: #C18F13;
+    height: 28px;
+    margin: 0px 10px 0px 0px;
+    padding: 3px 6px;
+}

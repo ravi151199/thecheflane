@@ -1,0 +1,42 @@
+
+.footer-container{
+    position: relative;
+    border-bottom: 1px solid #FFFCF4;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.up_arrow{
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nav-list{
+    
+    padding-right: 20px;
+}
+
+.footer-right{
+    display: flex;
+}
+.contact-details{
+    margin-top: 10px;
+    padding-left: 48px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid #FFFCF4;
+}
+.contact-details button{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+p{
+    color: #ffffff;
+}
