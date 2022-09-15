@@ -34,7 +34,7 @@ export default function ContactForm() {
                   <h3 className="text-primary mb-4">Get in touch with us</h3>
                   <div className="d-flex py-3 ">
                     <div>
-                      <img src={Email} alt="" srcset="" />
+                      <img src={Email} alt="" />
                     </div>
                     <div className="px-3">
                       <h6>Email Us</h6>
@@ -43,7 +43,7 @@ export default function ContactForm() {
                   </div>
                   <div className="d-flex py-3 pl-1">
                     <div>
-                      <img src={Location} alt="" srcset="" />
+                      <img src={Location} alt="" />
                     </div>
                     <div className="px-3">
                       <h6>Write to Us</h6>
@@ -76,7 +76,7 @@ export default function ContactForm() {
                       />
                     </div>
                     <div className="mb-3">
-                      <label for="email" className="form-label">
+                      <label htmlFor="email" className="form-label">
                         Email ID
                       </label>
                       <input
@@ -125,7 +125,7 @@ export default function ContactForm() {
                       </div>
                     </div>
                     <div className="mb-3">
-                      <label for="message" className="form-label">
+                      <label htmlFor="message" className="form-label">
                         Message
                       </label>
                       <textarea
