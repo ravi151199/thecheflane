@@ -12,8 +12,8 @@ export default function Cart() {
     item: 430,
     delivery: 50,
     advaceTotal: 500,
-    adVaceDelivary: 50,
-    tex: 62,
+    advaceDelivary: 50,
+    tax: 62,
   });
   const [cartData, setCartData] = useState([
     {
@@ -198,22 +198,22 @@ export default function Cart() {
               <div className="mt-5 p-3">
                 <h6>Available now</h6>
                 <div className="d-flex w-100 mb-2  align-items-center justify-content-between">
-                  <div className="my-0">Chicken Salad</div>
+                  <div className="my-0">Item Total</div>
                   <div className="my-0">₹{totalPrice.item.toFixed(2)}</div>
                 </div>
                 <div className="d-flex w-100 mb-2 align-items-center justify-content-between">
                   <div className="my-0">Delivery charges</div>
-                  <div className="my-0">₹50.00</div>
+                  <div className="my-0">₹{totalPrice.delivery.toFixed(2)}</div>
                 </div>
                 <hr />
                 <h6>Advanced order</h6>
                 <div className="d-flex w-100 mb-2  align-items-center justify-content-between">
                   <div className="my-0">Item Total </div>
-                  <div className="my-0">₹{totalPrice.advaceTotal}</div>
+                  <div className="my-0">₹{totalPrice.advaceTotal.toFixed(2)}</div>
                 </div>
                 <div className="d-flex w-100 mb-2 align-items-center justify-content-between">
                   <div className="my-0">Delivery charges</div>
-                  <div className="my-0">₹50.00</div>
+                  <div className="my-0">₹{totalPrice.advaceDelivary.toFixed(2)}</div>
                 </div>
                 <hr />
                 <div className="d-flex w-100 mb-2 align-items-center justify-content-between">
@@ -222,7 +222,7 @@ export default function Cart() {
                     <br />
                     (estimated for india )
                   </div>
-                  <div className="my-0">₹62.00</div>
+                  <div className="my-0">₹{totalPrice.tax.toFixed(2)}</div>
                 </div>
                 <hr />
                 <div className="d-flex text-primary w-100 mb-2 align-items-center justify-content-between">

@@ -97,23 +97,23 @@ export default function ContactForm() {
                           className="form-control"
                           placeholder="Enter number..."
                         />
-                        <div class="dropdown country_code">
+                        <div className="dropdown country_code">
                           <button
-                            class="btn dropdown-toggle"
+                            className="btn dropdown-toggle"
                             type="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             +91
                           </button>
-                          <ul class="dropdown-menu">
+                          <ul className="dropdown-menu">
                             <li>
-                              <a class="dropdown-item" href="#">
+                              <a className="dropdown-item" href="#">
                                +44
                               </a>
                             </li>
                             <li>
-                              <a class="dropdown-item" href="#">
+                              <a className="dropdown-item" href="#">
                                 +1
                               </a>
                             </li>
