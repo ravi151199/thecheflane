@@ -72,6 +72,7 @@ export default function ContactForm() {
                         id="name"
                         name="name"
                         placeholder="Enter name..."
+                        required
                       />
                     </div>
                     <div className="mb-3">
@@ -85,6 +86,7 @@ export default function ContactForm() {
                         id="email"
                         name="email"
                         placeholder="Enter email..."
+                        required
                       />
                     </div>
                     <div className="mb-3">
@@ -93,9 +95,10 @@ export default function ContactForm() {
                         <input
                           name="phoneNo"
                           onChange={handleFormData}
-                          type="number"
+                          type="tel"
                           className="form-control"
                           placeholder="Enter number..."
+                          required
                         />
                         <div className="dropdown country_code">
                           <button
@@ -132,6 +135,7 @@ export default function ContactForm() {
                         rows="3"
                         name="message"
                         placeholder="Enter..."
+                        required
                       ></textarea>
                     </div>
                     <div className="d-flex align-items-center justify-content-center">

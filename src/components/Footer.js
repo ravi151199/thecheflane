@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
+  const handleScroll = ()=>{
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }
   return (
     <>
       <footer className='p-2 bg-primary'>
@@ -29,9 +32,7 @@ function Footer() {
                 <button className='btn text-primary py-1 fw-bold bg-white border'>Contact us</button>
               </div>
             </div>
-            <img onClick={() => {
-          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-        }} className='up_arrow' src={uparrow} alt="" />
+            <img onClick={handleScroll} className='up_arrow' src={uparrow} alt="" />
           </div>
           <p >Copyright © 2021 Specialist Foods. All rights reserved.</p>
         </div>
