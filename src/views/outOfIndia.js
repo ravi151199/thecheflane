@@ -88,7 +88,7 @@ export default function OutOfIndia() {
                     <h4 className='text-primary text-center mb-5'>Compare different Packages </h4>
                     <div className="col-md-8 m-auto">
                         <div className="p-4 table-responsive bg-white ">
-                            <table class="table  text-center">
+                            <table className="table  text-center">
                                 <thead>
                                     <tr>
                                         <th className='border-end text-start' scope="col">Packages</th>
@@ -144,53 +144,53 @@ export default function OutOfIndia() {
                 <div>
                     <h3 className="text-center text-primary mb-5">Frequently Asked Questions</h3>
                     <div className="col-md-10 m-auto">
-                        <div class="bg-transparent accordion" id="accordionExample">
-                            <div class="bg-transparent accordion-item">
-                                <h2 class="bg-transparent accordion-header" id="headingOne">
-                                    <button class="bg-transparent accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div className="bg-transparent accordion" id="accordionExample">
+                            <div className="bg-transparent accordion-item">
+                                <h2 className="bg-transparent accordion-header" id="headingOne">
+                                    <button className="bg-transparent accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <h5 className="text-primary">What is The Chef Lane?</h5>
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="bg-transparent accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="bg-transparent accordion-body">
+                                <div id="collapseOne" className="bg-transparent accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div className="bg-transparent accordion-body">
                                         Chef Lane is a platform that enables home cooks and foodies to sell food to customers and helps customers discover and order quality and authentic food from home chefs
                                     </div>
                                 </div>
                             </div>
-                            <div class="bg-transparent accordion-item">
-                                <h2 class="bg-transparent accordion-header" id="headingTwo">
-                                    <button class="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div className="bg-transparent accordion-item">
+                                <h2 className="bg-transparent accordion-header" id="headingTwo">
+                                    <button className="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <h5 className="text-primary">What are the requirements for signing up for The Chef Lane</h5>
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="bg-transparent accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="bg-transparent accordion-body">
+                                <div id="collapseTwo" className="bg-transparent accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div className="bg-transparent accordion-body">
                                         <strong>How can we get orders? </strong>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bg-transparent accordion-item">
-                                <h2 class="bg-transparent accordion-header" id="three">
-                                    <button class="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="two">
+                            <div className="bg-transparent accordion-item">
+                                <h2 className="bg-transparent accordion-header" id="three">
+                                    <button className="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="two">
                                         <h5 className="text-primary">How can we get orders? </h5>
                                     </button>
                                 </h2>
-                                <div id="two" class="bg-transparent accordion-collapse collapse" aria-labelledby="three" data-bs-parent="#accordionExamp">
-                                    <div class="bg-transparent accordion-body">
+                                <div id="two" className="bg-transparent accordion-collapse collapse" aria-labelledby="three" data-bs-parent="#accordionExamp">
+                                    <div className="bg-transparent accordion-body">
                                         <strong>This is the second item's accordion body.</strong> ow.
                                     </div>
                                 </div>
                             </div>
-                            <div class="bg-transparent accordion-item">
-                                <h2 class="bg-transparent accordion-header" id="three">
-                                    <button class="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="" aria-expanded="false" aria-controls="">
+                            <div className="bg-transparent accordion-item">
+                                <h2 className="bg-transparent accordion-header" id="three">
+                                    <button className="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="" aria-expanded="false" aria-controls="">
                                         <h5 className="text-primary">How many days do I have to cook?</h5>
                                     </button>
                                 </h2>
                             </div>
-                            <div class="bg-transparent accordion-item">
-                                <h2 class="bg-transparent accordion-header" id="three">
-                                    <button class="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="" aria-expanded="false" aria-controls="">
+                            <div className="bg-transparent accordion-item">
+                                <h2 className="bg-transparent accordion-header" id="three">
+                                    <button className="bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="" aria-expanded="false" aria-controls="">
                                         <h5 className="text-primary">Do I need to have culinary training to sign up for the chef lane?
                                         </h5>
                                     </button>
@@ -206,6 +206,3 @@ export default function OutOfIndia() {
 }
 
 
-
-
-// F:\random\ravi\thechefflane\src\assets\images
